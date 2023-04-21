@@ -1,0 +1,53 @@
+body {
+    background-color: #F19FA8;
+    color: #2A2A63;
+}
+
+.exp-container {
+    flex-direction: column;
+}
+
+.desk-margin {
+    margin: 20px 0;
+}
+
+.skills-svg svg {
+    margin: 0 8px;
+}
+
+.skills-svg1 svg {
+    margin: 0 8px;
+}
+
+.skills-svg1 {
+    margin-left: 100px;
+}
+
+.skills-svg {
+    margin-left: 15px;
+}
+
+.skills-svg2 {
+    margin-left: 55px;
+}
+
+.skills-svg2 svg {
+    margin: 0 8px;
+}
+
+.heading {
+    font-size: 15px;
+    margin: 65px;
+}
+
+@media(min-width:768px) {
+    .exp-container {
+        flex-direction: row;
+    }
+    .border-right {
+        border-right: 1px solid black;
+    }
+    .desk-margin {
+        margin: 40px 0;
+    }
+}
